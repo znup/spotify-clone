@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from 'react';
-const Pause = ({ className }) => (
+export const Pause = ({ className }) => (
   <svg
     className={className}
     role="img"
@@ -12,7 +12,7 @@ const Pause = ({ className }) => (
   </svg>
 );
 
-const Play = ({ className }) => (
+export const Play = ({ className }) => (
   <svg
     className={className}
     role="img"
